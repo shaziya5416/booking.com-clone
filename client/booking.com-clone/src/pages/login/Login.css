@@ -1,0 +1,36 @@
+
+.lContainer{
+    /* max-width: 900px; */
+    padding-top: 200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    /* display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    flex-direction: column;
+    gap:10px; */
+
+}
+.lInput{
+    width: 230px;
+    height: 30px;
+    padding: 10px;
+}
+.lButton{
+    width: 130px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.lButton:disabled{
+    background-color:#0071c28c;
+    cursor: not-allowed;
+}
